@@ -1,5 +1,5 @@
 ---
-- hosts: app_vm
+- hosts: localhost
   become: true
   tasks:
     - name: Deploy 4dvop-nginx

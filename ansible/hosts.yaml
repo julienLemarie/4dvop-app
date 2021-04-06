@@ -1,6 +1,4 @@
 all:
   hosts:
     app_vm:
-      localhost: 192.168.48.131
-  vars:
-    ansible_python_interpreter=/usr/bin/python2
+      ansible_host: 192.168.48.131
